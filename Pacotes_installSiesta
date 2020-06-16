@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------
+--Antes de instalar o siesta é necessário instalar os seguintes pacotes --
+--------------------------------------------------------------------------
+
+sudo apt-get update 
+sudo apt-get install gfortran 
+sudo apt-get install vim
+sudo apt-get install build-essential checkinstall
+sudo apt-get install libscalapack-mpi-dev
+sudo apt-get install openmpi-bin openmpi-doc libopenmpi-dev
+sudo apt-get install libblacs-mpi-dev
+sudo apt-get install liblapack-dev -y ; sudo apt-get install liblapack3 -y ; 
+sudo apt-get install libopenblas-base -y ; sudo apt-get install libopenblas-dev -y ;
+sudo apt-get install liblapack-dev libopenblas-dev
+
